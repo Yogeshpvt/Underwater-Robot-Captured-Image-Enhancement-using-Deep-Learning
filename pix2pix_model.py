@@ -1,3 +1,4 @@
+"""
 Generator:    
 The encoder-decoder architecture consists of:
 
@@ -11,8 +12,8 @@ Discriminator
 C64-C128-C256-C512
 After the last layer, a convolution is applied to map to
 a 1-dimensional output, followed by a Sigmoid function.    
-
 """
+
 from numpy import zeros
 from numpy import ones
 from numpy.random import randint
