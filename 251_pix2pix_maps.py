@@ -1,10 +1,3 @@
-# https://youtu.be/6pUSZgPJ3Yg
-"""
-Satellite image to maps image translation ​using Pix2Pix GAN
- 
-Data from: http://efrosgans.eecs.berkeley.edu/pix2pix/datasets/maps.tar.gz
-Also find other datasets here: http://efrosgans.eecs.berkeley.edu/pix2pix/datasets/
-"""
 
 from os import listdir
 from numpy import asarray, load
