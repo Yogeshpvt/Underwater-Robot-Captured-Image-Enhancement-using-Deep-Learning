@@ -36,11 +36,11 @@ from tensorflow.keras.utils import plot_model
 #from keras.models import load_model
 
 
-#############################################################################
+
 #Define generator, discriminator, gan and other helper functions
 #We will use functional way of defining model and not sequential
 #as we have multiple inputs; both images and corresponding labels. 
-########################################################################
+
 
 #Since pix2pix is a conditional GAN, it takes 2 inputs - image and corresponding label
 #For pix2pix the label will be another image. 
@@ -103,7 +103,6 @@ def define_discriminator(image_shape):
 # disc_model = define_discriminator((256,256,3))
 # plot_model(disc_model, to_file='disc_model.png', show_shapes=True)
 
-##############################
 #Now define the generator - in our case we will define a U-net
 # define an encoder block to be used in generator
 def define_encoder_block(layer_in, n_filters, batchnorm=True):
