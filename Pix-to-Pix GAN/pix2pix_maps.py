@@ -96,8 +96,6 @@ for i in range(n_samples):
 plt.show()
 
 
-#######################################
-
 
 from pix2pix_model import define_discriminator, define_generator, define_gan, train
 # define input shape based on the loaded dataset
@@ -156,8 +154,6 @@ print("Execution time is: ", execution_time)
 
 
 
-
-#################################################
 
  #Test trained model on a few images...
 from keras.models import load_model
